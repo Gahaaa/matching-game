@@ -1,0 +1,86 @@
+*{padding:0;margin:0;}
+li{list-style:none;}
+a,
+a:visited {text-decoration:none;}
+button{border:0;background-color:transparent;}
+.button {display:block;position:relative;width:120px;padding:0;margin:50px auto;font-weight:600;text-align:center;line-height:50px;color:#FFF;border-radius:5px;transition:all 0.2s ;background: #a4d0ff;box-shadow: 0px 5px 0px 0px #547dab;border:0;}
+.button:hover {transform:translateY(5px);box-shadow: 0px 0px 0px 0px #007144;}
+.button::before {background:#00AE68;}
+
+.wrap{width:990px;margin:0 auto;}
+@media screen and (max-width: 1000px) {
+	.wrap {
+        width:100%;
+        max-width: 750px;
+        min-width: 320px;
+        padding:20px;
+        box-sizing: border-box;
+	}
+}
+/* main */
+.wrap .main{padding-top:80px;width:100%;}
+.wrap h2{text-align:center;padding-top:60px;letter-spacing:-2px;}
+.wrap .main .select_area{width:fit-content;padding-top:100px;margin:0 auto;}
+.wrap .main .select_area select{width:300px;padding:10px;margin:0 5px 10px;border-radius:5px;font-size:16px;}
+.wrap .main .select_area select:focus{outline: 3px solid #547dab;}
+/* card_section */
+.wrap .card_section ul{display:flex;flex-wrap:wrap;justify-content:center;padding-top:120px;}
+/* card */
+.wrap .card_section > ul > li{width:200px;height:279px;perspective: 1100px;margin:0 10px 20px 0;transition: .2s;}
+.wrap .card_section > ul > li .card_wrap{ width: 100%; height: 100%; position: relative;transition:.2s;transform-style: preserve-3d;}
+.wrap .card_section > ul > li .card_wrap .front,
+.wrap .card_section > ul > li .card_wrap .back{ position: absolute;width: 100%; height: 100%;backface-visibility: hidden;border-radius:17px;box-shadow: 5px 5px 20px #ccc;}
+.wrap .card_section > ul > li .card_wrap .front {background:url('./img/card_img.jpg') 0 0 / 100%;}
+.wrap .card_section > ul > li .card_wrap .back {transform: rotateY(180deg);border:solid 10px #3b3535;box-sizing:border-box;}
+.wrap .card_section > ul > li.card01 .card_wrap .back {background:url('./img/card01.webp') 0 30px/ 100% no-repeat;}
+.wrap .card_section > ul > li.card02 .card_wrap .back {background:url('./img/card02.webp') 0 30px/ 100% no-repeat;}
+.wrap .card_section > ul > li.card03 .card_wrap .back {background:url('./img/card03.webp') 0 30px/ 100% no-repeat;}
+.wrap .card_section > ul > li.card04 .card_wrap .back {background:url('./img/card04.webp') 0 30px/ 100% no-repeat;}
+.wrap .card_section > ul > li.card05 .card_wrap .back {background:url('./img/card05.webp') 0 30px/ 100% no-repeat;}
+.wrap .card_section > ul > li.card06 .card_wrap .back {background:url('./img/card06.webp') 0 30px/ 100% no-repeat;}
+.wrap .card_section > ul > li.card07 .card_wrap .back {background:url('./img/card07.webp') 0 30px/ 100% no-repeat;}
+.wrap .card_section > ul > li.card08 .card_wrap .back {background:url('./img/card08.webp') 0 30px/ 100% no-repeat;}
+.wrap .card_section > ul > li.card09 .card_wrap .back {background:url('./img/card09.webp') 0 30px/ 100% no-repeat;}
+.wrap .card_section > ul > li .card_wrap.on{transform: rotateY(180deg);}
+.wrap .card_section > ul > li.off{opacity:0;}
+
+/* 결과화면 */
+.fail_section,
+.result{padding:110px 0;}
+.result .record{padding-top:80px;}
+.result .record h3{width:fit-content;padding:10px 20px;background:#547dab;color:#fff;border-radius:10px;margin-bottom:20px;}
+.result .record table{width:100%;padding-bottom:10px;font-size:18px;border:solid 2px #547dab;border-radius:10px;}
+.result .record table thead tr{background:#547dab;border-radius:10p 10px 0 0;}
+.result .record table thead tr th{padding:15px 0;color:#fff;}
+.result .record table tbody tr td{padding:5px 0;border-bottom:solid 1px #eee;text-align:center;}
+
+/* 이미지선택->마리오 */
+.wrap .card_section .mario li.card01 .card_wrap .back {background:url('./img/card_v2_01.webp') 0 30px/ 100% no-repeat;}
+.wrap .card_section .mario li.card02 .card_wrap .back {background:url('./img/card_v2_02.webp') 32px 32px/ 58% no-repeat;}
+.wrap .card_section .mario li.card03 .card_wrap .back {background:url('./img/card_v2_03.webp') 20px 30px/ 84% no-repeat;}
+.wrap .card_section .mario li.card04 .card_wrap .back {background:url('./img/card_v2_04.webp') 31px 41px/ 69% no-repeat;}
+.wrap .card_section .mario li.card05 .card_wrap .back {background:url('./img/card_v2_05.webp') 30px 43px/ 64% no-repeat}
+.wrap .card_section .mario li.card06 .card_wrap .back {background:url('./img/card_v2_06.webp') -17px 45px/ 116% no-repeat;}
+.wrap .card_section .mario li.card07 .card_wrap .back {background:url('./img/card_v2_07.webp') 30px 53px/ 71% no-repeat;}
+.wrap .card_section .mario li.card08 .card_wrap .back {background:url('./img/card_v2_08.webp') 18px 46px/ 80% no-repeat;}
+.wrap .card_section .mario li.card09 .card_wrap .back {background:url('./img/card_v2_09.webp') 33px 76px/ 67% no-repeat;}
+
+/* top_menu */
+.top_menu{width:100%;padding:30px 5% 20px;margin-left:-50%;;display:flex;align-items: center;justify-content:space-between;position:fixed;top:-10px;left:50%;z-index:10;box-sizing:border-box;color:#222222;}
+.top_menu .bg{background:#fff;filter:blur(5px);position:absolute;z-index:-1;top:0;left:0;width:100%;height:100%;opacity:.9;}
+.top_menu button[class^=btn]{display:block;font-size:0;text-indent:-999999px;transition:.2s;}
+.top_menu button[class^=btn]:hover{opacity:.5;filter:blur(1px);}
+.top_menu button.btn_back{background:url(./img/go_back.png) no-repeat;width:43px;height:43px;background-size:100%;}
+.top_menu button.btn_hint{background-image:url(./img/hint_icon.png);background-size:100%;background-position:50%;width:46px;height:46px;}
+.top_menu button.btn_hint.off{opacity:.5;cursor:not-allowed;}
+.top_menu .hint_section{display:flex;align-items: center;}
+.top_menu .hint_section p{margin-left:10px;letter-spacing:-1px;font-size:18px;}
+.top_menu .life ul{padding:0;}
+.top_menu .life ul li{width:40px;height:40px;background-image:url(./img/life_img.png);background-size:100%;}
+.top_menu .life ul li.off{filter:grayscale(1);opacity:.4;}
+.top_menu .timer{padding:5px 10px;font-size:18px;border-radius:20px;border:2px solid #222222;}
+
+/* 숨김 */
+.card_section,
+.fail_section,
+.result{display:none;}
