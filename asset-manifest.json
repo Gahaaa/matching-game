@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/matching-game/static/css/main.e2dabce2.css",
+    "main.js": "/matching-game/static/js/main.ebc4125b.js",
+    "static/js/787.3acafdd6.chunk.js": "/matching-game/static/js/787.3acafdd6.chunk.js",
+    "static/media/card_img.jpg": "/matching-game/static/media/card_img.bb01680cf7623fcb97d1.jpg",
+    "static/media/card08.webp": "/matching-game/static/media/card08.61ec28b9067cf457f92e.webp",
+    "static/media/card01.webp": "/matching-game/static/media/card01.a8f1dee203cc6e363d6b.webp",
+    "static/media/card07.webp": "/matching-game/static/media/card07.f9d8586c0e08f47788f6.webp",
+    "static/media/card03.webp": "/matching-game/static/media/card03.a5281cd81cfe9d9b5bb4.webp",
+    "static/media/card09.webp": "/matching-game/static/media/card09.f260418e0f877dea6866.webp",
+    "static/media/card06.webp": "/matching-game/static/media/card06.ba0c9804d5a1ac4c5d17.webp",
+    "static/media/card05.webp": "/matching-game/static/media/card05.fc554797bd5955a36660.webp",
+    "static/media/card_v2_02.webp": "/matching-game/static/media/card_v2_02.d30e97bcbe53ae26513b.webp",
+    "static/media/card_v2_07.webp": "/matching-game/static/media/card_v2_07.bb34a5528d2933d7f1c8.webp",
+    "static/media/card_v2_06.webp": "/matching-game/static/media/card_v2_06.367b5f46f817f5a9fced.webp",
+    "static/media/card_v2_04.webp": "/matching-game/static/media/card_v2_04.bdf6d158e01bb5e87c3c.webp",
+    "static/media/card_v2_09.webp": "/matching-game/static/media/card_v2_09.5dfda4d0e13bb0b524a6.webp",
+    "static/media/card_v2_03.webp": "/matching-game/static/media/card_v2_03.1e511a297eb7e06b85bb.webp",
+    "static/media/card04.webp": "/matching-game/static/media/card04.653ebf257d9d05b867b9.webp",
+    "static/media/card_v2_01.webp": "/matching-game/static/media/card_v2_01.18ea5c3bcb3557ef45cf.webp",
+    "static/media/card_v2_08.webp": "/matching-game/static/media/card_v2_08.9782bf59fefd912d68b1.webp",
+    "static/media/card02.webp": "/matching-game/static/media/card02.4140897e475030ec8119.webp",
+    "static/media/card_v2_05.webp": "/matching-game/static/media/card_v2_05.9fb9a800124beae15d92.webp",
+    "static/media/hint_icon.png": "/matching-game/static/media/hint_icon.301171ce5336751cd442.png",
+    "index.html": "/matching-game/index.html",
+    "main.e2dabce2.css.map": "/matching-game/static/css/main.e2dabce2.css.map",
+    "main.ebc4125b.js.map": "/matching-game/static/js/main.ebc4125b.js.map",
+    "787.3acafdd6.chunk.js.map": "/matching-game/static/js/787.3acafdd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2dabce2.css",
+    "static/js/main.ebc4125b.js"
+  ]
+}
