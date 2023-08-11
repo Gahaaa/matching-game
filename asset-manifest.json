@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/matching-game/static/css/main.4b904610.css",
-    "main.js": "/matching-game/static/js/main.a8adc366.js",
+    "main.js": "/matching-game/static/js/main.508c84ef.js",
     "static/js/787.3acafdd6.chunk.js": "/matching-game/static/js/787.3acafdd6.chunk.js",
     "static/media/card_img.jpg": "/matching-game/static/media/card_img.bb01680cf7623fcb97d1.jpg",
     "static/media/card08.webp": "/matching-game/static/media/card08.61ec28b9067cf457f92e.webp",
@@ -25,11 +25,11 @@
     "static/media/hint_icon.png": "/matching-game/static/media/hint_icon.301171ce5336751cd442.png",
     "index.html": "/matching-game/index.html",
     "main.4b904610.css.map": "/matching-game/static/css/main.4b904610.css.map",
-    "main.a8adc366.js.map": "/matching-game/static/js/main.a8adc366.js.map",
+    "main.508c84ef.js.map": "/matching-game/static/js/main.508c84ef.js.map",
     "787.3acafdd6.chunk.js.map": "/matching-game/static/js/787.3acafdd6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b904610.css",
-    "static/js/main.a8adc366.js"
+    "static/js/main.508c84ef.js"
   ]
 }
